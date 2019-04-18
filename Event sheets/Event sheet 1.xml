@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="842543275286455">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="480702436578034" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bHello</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="693610381854861" type="System">
+                    <param id="0" name="Variable">clickCount</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="690635830948279">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="973738958745753" type="System">
+                    <param id="0" name="Variable">clickCount</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="280059173621640" type="Text">
+                    <param id="0" name="Text">&quot;oum&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
